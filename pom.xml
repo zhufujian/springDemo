@@ -107,17 +107,4 @@
 			</plugin>
 		</plugins>
 	</build>
-  <!-- 设定团队持续集成发布包服务器 -->
-	<distributionManagement> 
-		<repository>
-			<id>releases</id>
-			<name>releases</name>
-			<url>http://nexus.lianlianpay-inc.com/repository/release/</url>
-		</repository>
-		<snapshotRepository>
-			<id>snapshots</id>
-			<name>snapshots</name>
-			<url>http://nexus.lianlianpay-inc.com/repository/snapshots/</url>
-		</snapshotRepository>
-	</distributionManagement>
 </project>
